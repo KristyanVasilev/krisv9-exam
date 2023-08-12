@@ -5,6 +5,6 @@ test("Check footer", async ({ page }) => {
   const footer = await page.$("footer");
   const text = await footer.textContent();
   expect(text).toContain(
-    "© 2023 - Software Engineering and DevOps exam preparation"
+    "© 2023 - Software Engineering and DevOps regular exam"
   );
 });
